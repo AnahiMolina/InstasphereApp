@@ -29,6 +29,13 @@ import Blank from './layouts/Blank.jsx';
 import Tabs from './layouts/Tabs.jsx';
 import Sidemenu from './layouts/Sidemenu.jsx';
 
+import Acceso from './pages/Acceso.jsx';
+import Registro from './pages/Registro.jsx';
+import Pestanias from './pages/Pestanias.jsx';
+import Mensajes from './pages/Mensajes.jsx';
+import Perfil from './pages/Perfil.jsx';
+import Buscar from './pages/Buscar';
+
 setupIonicReact();
 
 createRoot(document.getElementById('root')!).render(
@@ -36,18 +43,22 @@ createRoot(document.getElementById('root')!).render(
     <IonReactRouter>
       <IonRouterOutlet>
         <Route exact path="/">
-          <Home />
+          <Acceso />
         </Route>
-        <Route exact path="/blank">
-          <Blank title='Blank'>
-            Hola Mundo
-          </Blank>
+        <Route exact path="/registro">
+          <Registro />
         </Route>
-        <Route exact path="/tabs">
-          <Tabs />
+        <Route exact path="/inicio">
+          <Pestanias />
         </Route>
-        <Route exact path="/menu">
-          <Sidemenu />
+        <Route exact path="/perfil">
+          <Perfil />
+        </Route>
+        <Route exact path="/mensajes">
+          <Mensajes />
+        </Route>
+        <Route exact path="/buscar">
+          <Buscar />
         </Route>
       </IonRouterOutlet>
     </IonReactRouter>
