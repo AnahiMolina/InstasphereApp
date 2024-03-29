@@ -10,7 +10,7 @@ import Perfil from "./Perfil.jsx";
 
 export default function Pestanias() {
   return (
-    <IonReactRouter>
+    <IonReactRouter basename="/InstasphereApp/">
       <IonTabs>
         <IonRouterOutlet>
           <Route exact path="/inicio">
