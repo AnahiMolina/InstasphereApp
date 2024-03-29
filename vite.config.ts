@@ -4,6 +4,7 @@ import { defineConfig } from 'vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base:'/InstasphereApp/',
   server: {
     open: true,
     port: 8080

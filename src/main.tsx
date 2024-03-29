@@ -40,7 +40,7 @@ setupIonicReact();
 
 createRoot(document.getElementById('root')!).render(
   <IonApp>
-    <IonReactRouter basename='/InstasphereApp/'>
+    <IonReactRouter basename={import.meta.env.BASE_URL}>
       <IonRouterOutlet>
         <Route exact path="/">
           <Acceso />
