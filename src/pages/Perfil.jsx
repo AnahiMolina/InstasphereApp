@@ -1,7 +1,6 @@
 import { IonPage, IonContent, IonHeader, IonGrid, IonRow, IonCol, IonButton } from "@ionic/react"
 import Titulo from "../components/Titulo"
 
-
 export default function Perfil() {
   return (
     <IonPage>

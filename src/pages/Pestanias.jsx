@@ -16,11 +16,11 @@ export default function Pestanias() {
           <Route exact path="/inicio">
                 <Inicio />
           </Route>
+          <Route path="/buscar">
+                <Buscar />
+          </Route>
           <Route path="/perfil">
                 <Perfil />
-          </Route>
-          <Route path="/mensajes">
-                <Mensajes />
           </Route>
         </IonRouterOutlet>
         <IonTabBar slot="bottom">

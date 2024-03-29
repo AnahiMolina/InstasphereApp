@@ -34,7 +34,7 @@ import Registro from './pages/Registro.jsx';
 import Pestanias from './pages/Pestanias.jsx';
 import Mensajes from './pages/Mensajes.jsx';
 import Perfil from './pages/Perfil.jsx';
-import Buscar from './pages/Buscar';
+import Buscar from './pages/Buscar.jsx';
 
 setupIonicReact();
 

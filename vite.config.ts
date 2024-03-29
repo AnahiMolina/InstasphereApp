@@ -8,6 +8,9 @@ export default defineConfig({
     open: true,
     port: 8080
   },
+  build:{
+    chunkSizeWarningLimit:1000
+  },
   plugins: [
     react(),
     legacy()
