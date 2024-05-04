@@ -12,7 +12,7 @@ export default function Titulo({ mostrar = true }) {
             <IonCol size="11">
               <h1 className="instasphere">
                 <img src={logo} width='24' alt='24' style={{ marginRight: 13 }} />
-                InstaSphere
+                Instasphere
               </h1>
             </IonCol>
             <IonCol size="1">
